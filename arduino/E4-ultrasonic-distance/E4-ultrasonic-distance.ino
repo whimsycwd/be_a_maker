@@ -9,7 +9,7 @@ void setup() {
   pinMode(echoPin, INPUT);
   Serial.println("Ultrasonic sensor: ");
 }
-
+   
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(trigPin, LOW);
